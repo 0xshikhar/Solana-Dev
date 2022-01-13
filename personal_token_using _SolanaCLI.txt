@@ -1,0 +1,123 @@
+shikhar@Shikhars-MacBook ~ % solana-keygen new
+Generating a new keypair
+
+For added security, enter a BIP39 passphrase
+
+NOTE! This passphrase improves security of the recovery seed phrase NOT the
+keypair file itself, which is stored as insecure plain text
+
+BIP39 Passphrase (empty for none): 
+Enter same passphrase again: 
+
+Wrote new keypair to /Users/shikhar/.config/solana/id.json
+==========================================================================
+pubkey: FBjcQ4sVZgikMZ75wLutdtVHHXN7Z1q3Ry6dk5LsTsDQ
+==========================================================================
+Save this seed phrase and your BIP39 passphrase to recover your new keypair:
+beach garbage decline solid ghost trophy gather stick run neck summer drop
+==========================================================================
+shikhar@Shikhars-MacBook ~ % spl-token create-token
+Creating token 9V7Kf9FSJXnC6zDLvave2kB5NNGH6mwsQ3jvJHcTjGoz
+Fee payer, FBjcQ4sVZgikMZ75wLutdtVHHXN7Z1q3Ry6dk5LsTsDQ, has insufficient balance: 0.0014716 required, 0 available
+shikhar@Shikhars-MacBook ~ % spl-token create-token
+Creating token ATtaeEwo2UxTvEVaa3VJDacuQfEk9pPjxFUv4KrwuhkH
+Fee payer, FBjcQ4sVZgikMZ75wLutdtVHHXN7Z1q3Ry6dk5LsTsDQ, has insufficient balance: 0.0014716 required, 0 available
+shikhar@Shikhars-MacBook ~ % solana airdrop 1 FBjcQ4sVZgikMZ75wLutdtVHHXN7Z1q3Ry6dk5LsTsDQ                   
+Requesting airdrop of 1 SOL
+Error: airdrop request failed. This can happen when the rate limit is reached.
+shikhar@Shikhars-MacBook ~ % solana airdrop 1 FBjcQ4sVZgikMZ75wLutdtVHHXN7Z1q3Ry6dk5LsTsDQ --url https://api.devnet.solana.com
+Requesting airdrop of 1 SOL
+
+Signature: 5cJ3bXmRPZ2g2L6EyKUmSzr4M8nQHpJH7EQBc9uh652oYiLv9dtXRg62PENMkbSoDZUeprEU4XxK9NkuwNXB3qwT
+
+1 SOL
+shikhar@Shikhars-MacBook ~ % spl-token create-token                                                                           
+Creating token G6ce8A84RFDfiVRHuJJLuTucqcBdhxXPJyEPWmjuMYgd
+Fee payer, FBjcQ4sVZgikMZ75wLutdtVHHXN7Z1q3Ry6dk5LsTsDQ, has insufficient balance: 0.0014716 required, 0 available
+shikhar@Shikhars-MacBook ~ % solana balance
+0 SOL
+shikhar@Shikhars-MacBook ~ % solana airdrop 1 FBjcQ4sVZgikMZ75wLutdtVHHXN7Z1q3Ry6dk5LsTsDQ --url https://api.devnet.solana.com
+Requesting airdrop of 1 SOL
+
+Signature: 3KxGsAGE38hZMgqfdQE6CDBd7AmmKh4N5Hwqe13rNgmsTscWcRuHzKNcoAiEZc5noPFDLhdgCFdXfTRKG6iDLT6Y
+
+2 SOL
+shikhar@Shikhars-MacBook ~ % solana balance FBjcQ4sVZgikMZ75wLutdtVHHXN7Z1q3Ry6dk5LsTsDQ
+0 SOL
+shikhar@Shikhars-MacBook ~ % spl-token create-account FBjcQ4sVZgikMZ75wLutdtVHHXN7Z1q3Ry6dk5LsTsDQ --url https://api.devnet.solana.com
+
+Creating account J6gqTRgBwBnMjRqcGm1Rh4TC66srPgcyCRxteM3XELMs
+RPC response error -32002: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x2 [18 log messages]
+shikhar@Shikhars-MacBook ~ % solana airdrop 1 FBjcQ4sVZgikMZ75wLutdtVHHXN7Z1q3Ry6dk5LsTsDQ --url https://api.devnet.solana.com        
+Requesting airdrop of 1 SOL
+
+Signature: 5ZYGVEXgQX8MjSKXip5K4hZxsozFyW8QGBE45AE2iG2kDhfPt4aWXBUDLotM6WQCLn7JZ4BguLGGYZw3F9JuBgYS
+
+3 SOL
+shikhar@Shikhars-MacBook ~ % spl-token create-account FBjcQ4sVZgikMZ75wLutdtVHHXN7Z1q3Ry6dk5LsTsDQ --url https://api.devnet.solana.com
+
+Creating account J6gqTRgBwBnMjRqcGm1Rh4TC66srPgcyCRxteM3XELMs
+RPC response error -32002: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x2 [18 log messages]
+shikhar@Shikhars-MacBook ~ % spl-token create-token                                                                                   
+Creating token 8GVBfw9Nmxepw2sUgjcQ4WUifszg6sqzyTDnALFLap7g
+Fee payer, FBjcQ4sVZgikMZ75wLutdtVHHXN7Z1q3Ry6dk5LsTsDQ, has insufficient balance: 0.0014716 required, 0 available
+shikhar@Shikhars-MacBook ~ % spl-token create-token                                                                                   
+Creating token Ag36gxr5BzMQMo3q3wT9rQz7GSebFNWePtNevQmHcGXc
+Fee payer, FBjcQ4sVZgikMZ75wLutdtVHHXN7Z1q3Ry6dk5LsTsDQ, has insufficient balance: 0.0014716 required, 0 available
+shikhar@Shikhars-MacBook ~ % spl-token create-account FBjcQ4sVZgikMZ75wLutdtVHHXN7Z1q3Ry6dk5LsTsDQ --url https://api.devnet.solana.com
+
+^[[ACreating account J6gqTRgBwBnMjRqcGm1Rh4TC66srPgcyCRxteM3XELMs
+^R
+^[[RPC response error -32002: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x2 [18 log messages]
+shikhar@Shikhars-MacBook ~ % solana balance
+0 SOL
+shikhar@Shikhars-MacBook ~ % solana balance -devnet                                                                                   
+error: Found argument '-d' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    solana balance [FLAGS] [OPTIONS] [ACCOUNT_ADDRESS]
+
+For more information try --help
+shikhar@Shikhars-MacBook ~ % solana balance -testnet
+error: Found argument '-t' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    solana balance [FLAGS] [OPTIONS] [ACCOUNT_ADDRESS]
+
+For more information try --help
+shikhar@Shikhars-MacBook ~ % solana airdrop 1 FBjcQ4sVZgikMZ75wLutdtVHHXN7Z1q3Ry6dk5LsTsDQ --url https://api.devnet.solana.com
+
+Requesting airdrop of 1 SOL
+
+Signature: 5iyfEfv4s9vEf5K7i4rafTGnMAL9JzDCs3kA5so6xAEaeTUC4DTHwj8vAZja1xowAQPNHMPSpBeF3EuxNC2Zqvn3
+
+4 SOL
+shikhar@Shikhars-MacBook ~ % solana balance —url https://api.devnet.solana.com
+error: Found argument 'https://api.devnet.solana.com' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    solana balance [FLAGS] [OPTIONS] [ACCOUNT_ADDRESS]
+
+For more information try --help
+shikhar@Shikhars-MacBook ~ % solana balance —url https://api.devnet.solana.com
+error: Found argument 'https://api.devnet.solana.com' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    solana balance [FLAGS] [OPTIONS] [ACCOUNT_ADDRESS]
+
+For more information try --help
+shikhar@Shikhars-MacBook ~ % spl-token create-token —url https://api.devnet.solana.com
+error: Found argument 'https://api.devnet.solana.com' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    spl-token create-token [FLAGS] [OPTIONS] [--] [TOKEN_KEYPAIR]
+
+For more information try --help
+shikhar@Shikhars-MacBook ~ % solana balance FBjcQ4sVZgikMZ75wLutdtVHHXN7Z1q3Ry6dk5LsTsDQ —url https://api.devnet.solana.com
+error: Found argument '—url' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    solana balance [FLAGS] [OPTIONS] [ACCOUNT_ADDRESS]
+
+For more information try --help
+shikhar@Shikhars-MacBook ~ % 
